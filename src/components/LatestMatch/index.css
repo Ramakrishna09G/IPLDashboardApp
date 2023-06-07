@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.latest-match-card-container {
+  background-color: #0f172a;
+  border-radius: 12px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  padding-top: 35px;
+  width: 95%;
+  align-self: center;
+}
+.venue-card-container {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hr-line {
+  border: solid #475569 2px;
+}
+.innings-details-container {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+.vc-item-1 {
+  font-size: 22px;
+}
+.vc-item-2 {
+  font-size: 16px;
+}
+.competing-team-logo {
+  height: 75px;
+  width: 75px;
+  margin-right: 15px;
+}
+.column-name {
+  font-size: 18px;
+}
+.column-value {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .latest-match-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .venue-card-container {
+    flex-grow: 1;
+  }
+  .innings-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+    padding-right: 15px;
+  }
+  .vc-item-team-name {
+    font-size: 35px;
+    margin-bottom: 45px;
+  }
+  .vc-item-venue {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .vc-item-2 {
+    font-size: 18px;
+    margin-top: 20x;
+  }
+  .column-name {
+    text-align: right;
+    font-size: 20px;
+  }
+  .column-value {
+    text-align: right;
+    font-size: 18px;
+  }
+  .competing-team-logo {
+    height: 220px;
+    width: 220px;
+  }
+  .hr-line {
+    display: none;
+  }
+}
